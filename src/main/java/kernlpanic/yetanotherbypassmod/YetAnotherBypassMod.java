@@ -4,7 +4,7 @@ import net.fabricmc.api.ModInitializer;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-public class CustomServerAccessMod implements ModInitializer {
+public class YetAnotherBypassMod implements ModInitializer {
 	public static final Logger LOGGER = LoggerFactory.getLogger("yetanotherbypassmod");
 
 	@Override
