@@ -1,52 +1,67 @@
-# Custom Server Access Mod
+# YetAnotherBypassMod (YABM)
 
-## A Fabric Mod for Customizing Server Filter Behavior
+## The Mod That Just Says “Fuck Your Blocklist, Mojang”
 
-Minecraft includes a system to filter servers from the multiplayer list based on server-side moderation reports or internal policy decisions.
-This mod gives technical users the ability to override this behavior on the client side.
+Minecraft loves to block servers because apparently **you’re too dumb to choose your own damn server**.
+**YABM** exists so you can finally \*\*see every server you want, \*\*offline, custom, educational, or just plain weird.
 
-The goal of this mod is to support:
-* Offline, archival, or educational use cases
-* Players using custom server software
-* Client-side experimentation and mod interoperability
+This mod is for:
 
-This mod does not modify or interfere with authentication, and it does not spoof server status.
-It simply disables the automatic filter that blocks certain servers from being shown in the multiplayer list.
+* Nerds who tinker with custom servers
+* Players sick of Mojang’s arbitrary “blocked” nonsense
+* Anyone who enjoys **actually controlling their multiplayer experience**
 
-## Legal Disclaimer
+> No authentication hacks. No server spoofing. Just freedom.
 
-⚠️ This mod is not affiliated with or endorsed by Mojang or Microsoft.
+---
 
-By using this mod, you acknowledge the potential impact on your multiplayer experience.
-Always use mods responsibly and in accordance with the [`Minecraft EULA`](https://www.minecraft.net/en-us/eula) and [`community guidelines`](https://www.minecraft.net/en-us/community-standards).
+## How to Be a Rebel (Legal Stuff)
+
+⚠️ YABM is **not endorsed by Mojang or Microsoft**, and frankly, we don’t give a shit if they don’t like it.
+
+Use responsibly. Follow the [`Minecraft EULA`](https://www.minecraft.net/en-us/eula) if you’re scared of lawyers, and don’t cry when someone calls you a rebel.
+
+---
 
 ## Building
-This mod uses Gradle to handle dependencies & building.
 
-#### Requirements
+This mod uses Gradle to build, because we’re not savages.
+
+### Requirements
+
 * Java 21 JDK or newer
 * Git
 
-#### Compiling from source
-```sh
-git clone https://github.com/svenar-nl/FabricBlockedServersBypass.git
-cd FabricBlockedServersBypass/
-```
-After that run
-```sh
+### Compiling from Source
+
+```bash
+git clone https://github.com/PanicAtTheKernl/YetAnotherBypassMod.git
+cd YetAnotherBypassMod
 ./gradlew build jar
 ```
-or
-```sh
+
+Or run the all-in-one script:
+
+```bash
 ./build-all.sh
 ```
 
-You can find the output jar in the `build/libs` directory (or in the `dist/` directory if using `build-all.sh`).
+The final rebellious JAR will appear in `build/libs/` (or `dist/` if you used the script).
 
-# Installing
-To install and use the mod you need to have following:
+---
+
+## Installing
+
+All you need:
+
 * Fabric
-* customserveraccess-X.X.X-X.X.(X).jar
+* `YetAnotherBypassMod-X.X.X-X.X.(X).jar`
+
+Drop it in, fire up Minecraft, and **enjoy your newfound server freedom**.
+
+---
 
 ## License
-This mod is licensed under the permissive MIT license. Please see the [`LICENSE`](https://github.com/svenar-nl/FabricBlockedServersBypass/blob/master/LICENSE) file for more info.
+
+This bad boy is MIT licensed. Do whatever you want, we don’t care.
+[`LICENSE`](https://github.com/PanicAtTheKernl/YetAnotherBypassMod/blob/main/LICENSE)

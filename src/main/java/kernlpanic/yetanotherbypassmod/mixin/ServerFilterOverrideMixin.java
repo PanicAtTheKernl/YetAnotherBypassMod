@@ -1,4 +1,4 @@
-package nl.svenar.customserveraccess.mixin;
+package kernlpanic.yetanotherbypassmod.mixin;
 
 import com.mojang.patchy.MojangBlockListSupplier;
 
@@ -19,7 +19,7 @@ abstract class ServerFilterOverrideMixin {
 	 * 
 	 * Use responsibly.
 	 * 
-	 * @author svenar
+	 * @author kernlpanic
 	 * @reason Research purposes only
 	 * @return null
 	 */
