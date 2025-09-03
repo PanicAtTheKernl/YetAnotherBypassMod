@@ -1,36 +1,33 @@
-# YetAnotherBypassMod (YABM)
+# YetAnotherBypassMod (YABM) 🌟
 
-## The Mod That Just Says “Fuck Your Blocklist, Mojang”
+## Discover Every Minecraft Server – Your Way! 🐾
 
-Minecraft loves to block servers because apparently **you’re too dumb to choose your own damn server**.
-**YABM** exists so you can finally \*\*see every server you want, \*\*offline, custom, educational, or just plain weird.
+Minecraft can be a bit picky about which servers you can visit. **YABM** makes server exploration **fun, safe, and totally under your control**. Offline, custom, educational, or just quirky – if you want to check it out, you can!
 
-This mod is for:
+**Perfect for:**
 
-* Nerds who tinker with custom servers
-* Players sick of Mojang’s arbitrary “blocked” nonsense
-* Anyone who enjoys **actually controlling their multiplayer experience**
+* Curious tinkerers who love custom servers 🛠️
+* Players frustrated by confusing “blocked” messages 😸
+* Anyone who wants **full control and fun** in multiplayer 🎮
 
-> No authentication hacks. No server spoofing. Just freedom.
-
----
-
-## How to Be a Rebel (Legal Stuff)
-
-⚠️ YABM is **not endorsed by Mojang or Microsoft**, and frankly, we don’t give a shit if they don’t like it.
-
-Use responsibly. Follow the [`Minecraft EULA`](https://www.minecraft.net/en-us/eula) if you’re scared of lawyers, and don’t cry when someone calls you a rebel.
+> No hacks. No tricks. Just pure, joyful server exploring! ✨
 
 ---
 
-## Building
+## Play Responsibly 🌈
 
-This mod uses Gradle to build, because we’re not savages.
+YABM isn’t officially endorsed by Mojang or Microsoft. That’s okay! Just remember to respect the [`Minecraft EULA`](https://www.minecraft.net/en-us/eula) and have a good time exploring. Be kind, curious, and adventurous!
+
+---
+
+## Building YABM 🛠️
+
+Gradle keeps building simple and tidy.
 
 ### Requirements
 
-* Java 21 JDK or newer
-* Git
+* Java 21 JDK or newer ☕
+* Git 🐙
 
 ### Compiling from Source
 
@@ -40,28 +37,22 @@ cd YetAnotherBypassMod
 ./gradlew build jar
 ```
 
-Or run the all-in-one script:
-
-```bash
-./build-all.sh
-```
-
-The final rebellious JAR will appear in `build/libs/` (or `dist/` if you used the script).
+Your magical JAR will appear in `build/libs/` when Gradle finishes.
 
 ---
 
-## Installing
+## Installing YABM 🎉
 
 All you need:
 
-* Fabric
+* Fabric ⚡
 * `YetAnotherBypassMod-X.X.X-X.X.(X).jar`
 
-Drop it in, fire up Minecraft, and **enjoy your newfound server freedom**.
+Drop it in, start Minecraft, and **enjoy server exploration like never before**! 🐾
 
 ---
 
-## License
+## License 📜
 
-This bad boy is MIT licensed. Do whatever you want, we don’t care.
+MIT Licensed. Share, play, and enjoy however you like!
 [`LICENSE`](https://github.com/PanicAtTheKernl/YetAnotherBypassMod/blob/main/LICENSE)
