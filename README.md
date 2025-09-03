@@ -1,35 +1,35 @@
-# YetAnotherBypassMod (YABM) 🌟
+# YetAnotherBypassMod (YABM)
 
-## Discover Every Minecraft Server – Your Way! 🐾
+## Explore Minecraft Servers Freely and Safely
 
-Minecraft can be a bit picky about which servers you can visit. **YABM** makes server exploration **fun, safe, and totally under your control**. Offline, custom, educational, or just quirky – if you want to check it out, you can!
+**YetAnotherBypassMod (YABM)** allows players to access a wide range of Minecraft servers, including offline, custom, educational, or experimental servers. This mod is designed to enhance your multiplayer experience by providing greater control and flexibility.
 
-**Perfect for:**
+**Ideal for:**
 
-* Curious tinkerers who love custom servers 🛠️
-* Players frustrated by confusing “blocked” messages 😸
-* Anyone who wants **full control and fun** in multiplayer 🎮
+* Players who enjoy freedom!
+* Users seeking to bypass server restrictions
+* Anyone looking for a more versatile multiplayer experience
 
-> No hacks. No tricks. Just pure, joyful server exploring! ✨
-
----
-
-## Play Responsibly 🌈
-
-YABM isn’t officially endorsed by Mojang or Microsoft. That’s okay! Just remember to respect the [`Minecraft EULA`](https://www.minecraft.net/en-us/eula) and have a good time exploring. Be kind, curious, and adventurous!
+> Access servers seamlessly and responsibly.
 
 ---
 
-## Building YABM 🛠️
+## Usage Guidelines
 
-Gradle keeps building simple and tidy.
+YABM is not officially endorsed by Mojang or Microsoft. Please adhere to the [`Minecraft EULA`](https://www.minecraft.net/en-us/eula) and use the mod responsibly to ensure a safe and enjoyable experience.
+
+---
+
+## Building from Source
+
+YABM uses Gradle for a streamlined build process.
 
 ### Requirements
 
-* Java 21 JDK or newer ☕
-* Git 🐙
+* Java 21 JDK or newer
+* Git
 
-### Compiling from Source
+### Compilation Instructions
 
 ```bash
 git clone https://github.com/PanicAtTheKernl/YetAnotherBypassMod.git
@@ -37,22 +37,22 @@ cd YetAnotherBypassMod
 ./gradlew build jar
 ```
 
-Your magical JAR will appear in `build/libs/` when Gradle finishes.
+The compiled JAR file will be located in `build/libs/`.
 
 ---
 
-## Installing YABM 🎉
+## Installation
 
-All you need:
+### Requirements
 
-* Fabric ⚡
+* Fabric Loader
 * `YetAnotherBypassMod-X.X.X-X.X.(X).jar`
 
-Drop it in, start Minecraft, and **enjoy server exploration like never before**! 🐾
+Simply place the JAR file in your `mods` folder, launch Minecraft, and YABM will be ready for use.
 
 ---
 
-## License 📜
+## License
 
-MIT Licensed. Share, play, and enjoy however you like!
+YABM is MIT licensed. You are free to use, modify, and distribute the software.
 [`LICENSE`](https://github.com/PanicAtTheKernl/YetAnotherBypassMod/blob/main/LICENSE)
