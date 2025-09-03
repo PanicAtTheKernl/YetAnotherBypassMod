@@ -3,7 +3,7 @@ plugins {
 	id 'maven-publish'
 }
 
-def javaVersion = project.hasProperty('java_version') ? project.java_version.toInteger() : 17
+def javaVersion = project.hasProperty('java_version') ? project.java_version.toInteger() : 21
 
 java {
     sourceCompatibility = JavaVersion.toVersion(javaVersion)
